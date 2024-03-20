@@ -1,0 +1,97 @@
+[
+    {
+        "ascendancy": "Juggernaut",
+        "character": "Marauder",
+        "image_url": "https://cdn.poedb.tw/image/Art/2DArt/UIImages/Common/IconStr_Juggernaut.webp"
+    },
+    {
+        "ascendancy": "Berserker",
+        "character": "Marauder",
+        "image_url": "https://cdn.poedb.tw/image/Art/2DArt/UIImages/Common/IconStr_Berserker.webp"
+    },
+    {
+        "ascendancy": "Chieftain",
+        "character": "Marauder",
+        "image_url": "https://cdn.poedb.tw/image/Art/2DArt/UIImages/Common/IconStr_Chieftain.webp"
+    },
+    {
+        "ascendancy": "Raider",
+        "character": "Ranger",
+        "image_url": "https://cdn.poedb.tw/image/Art/2DArt/UIImages/Common/IconDex_Raider.webp"
+    },
+    {
+        "ascendancy": "Deadeye",
+        "character": "Ranger",
+        "image_url": "https://cdn.poedb.tw/image/Art/2DArt/UIImages/Common/IconDex_Deadeye.webp"
+    },
+    {
+        "ascendancy": "Pathfinder",
+        "character": "Ranger",
+        "image_url": "https://cdn.poedb.tw/image/Art/2DArt/UIImages/Common/IconDex_Pathfinder.webp"
+    },
+    {
+        "ascendancy": "Occultist",
+        "character": "Witch",
+        "image_url": "https://cdn.poedb.tw/image/Art/2DArt/UIImages/Common/IconInt_Occultist.webp"
+    },
+    {
+        "ascendancy": "Elementalist",
+        "character": "Witch",
+        "image_url": "https://cdn.poedb.tw/image/Art/2DArt/UIImages/Common/IconInt_Elementalist.webp"
+    },
+    {
+        "ascendancy": "Necromancer",
+        "character": "Witch",
+        "image_url": "https://cdn.poedb.tw/image/Art/2DArt/UIImages/Common/IconInt_Necromancer.webp"
+    },
+    {
+        "ascendancy": "Slayer",
+        "character": "Duelist",
+        "image_url": "https://cdn.poedb.tw/image/Art/2DArt/UIImages/Common/IconStrDex_Slayer.webp"
+    },
+    {
+        "ascendancy": "Gladiator",
+        "character": "Duelist",
+        "image_url": "https://cdn.poedb.tw/image/Art/2DArt/UIImages/Common/IconStrDex_Gladiator.webp"
+    },
+    {
+        "ascendancy": "Champion",
+        "character": "Duelist",
+        "image_url": "https://cdn.poedb.tw/image/Art/2DArt/UIImages/Common/IconStrDex_Champion.webp"
+    },
+    {
+        "ascendancy": "Inquisitor",
+        "character": "Templar",
+        "image_url": "https://cdn.poedb.tw/image/Art/2DArt/UIImages/Common/IconStrInt_Inquisitor.webp"
+    },
+    {
+        "ascendancy": "Hierophant",
+        "character": "Templar",
+        "image_url": "https://cdn.poedb.tw/image/Art/2DArt/UIImages/Common/IconStrInt_Hierophant.webp"
+    },
+    {
+        "ascendancy": "Guardian",
+        "character": "Templar",
+        "image_url": "https://cdn.poedb.tw/image/Art/2DArt/UIImages/Common/IconStrInt_Guardian.webp"
+    },
+    {
+        "ascendancy": "Assassin",
+        "character": "Shadow",
+        "image_url": "https://cdn.poedb.tw/image/Art/2DArt/UIImages/Common/IconDexInt_Assassin.webp"
+    },
+    {
+        "ascendancy": "Trickster",
+        "character": "Shadow",
+        "image_url": "https://cdn.poedb.tw/image/Art/2DArt/UIImages/Common/IconDexInt_Trickster.webp"
+    },
+    {
+        "ascendancy": "Saboteur",
+        "character": "Shadow",
+        "image_url": "https://cdn.poedb.tw/image/Art/2DArt/UIImages/Common/IconDexInt_Saboteur.webp"
+    },
+    {
+        "ascendancy": "Ascendant",
+        "character": "Scion",
+        "image_url": "https://cdn.poedb.tw/image/Art/2DArt/UIImages/Common/IconStrDexInt_Ascendant.webp"
+    }
+]
