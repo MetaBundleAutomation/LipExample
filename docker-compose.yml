@@ -1,0 +1,12 @@
+---
+version: "3.8"
+
+services:
+  streamlit:
+    container_name: streamlit
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: streamlit
+    ports:
+      - "8000:8080"

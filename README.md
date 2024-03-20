@@ -1,4 +1,4 @@
-# 🤖 Path of Misfortune
+# 🤖 LipNet
 
 - [Introduction](#Introduction)
 - [Requirements](#Requirements)
@@ -7,7 +7,7 @@
 <br>
 
 ## ⚡ Introduction
-"Path of Misfortune" is a whimsically application designed for Path of Exile players who seek a refreshing twist in their gaming routine. It generates random builds by spinning a series of "wheels of misfortune," selecting an ascendancy and a set of skill gems for you and your friends to challenge yourselves with. Perfect for those adventurous souls who think they've seen it all in Wraeclast and groups looking to add a hefty dose of meme-building fun to their BroSSF league launches.
+...
 
 <br>
 
@@ -21,19 +21,19 @@ Before starting, ensure you have the following installed:
 
 <br>
 
+
 ## 🚀 Getting Started
-To get started with "Path of Misfortune," clone the repository to your local machine and navigate into the project directory:
+Follow these instructions to get your Streamlit application up and running on your local machine for development and testing purposes.
 
 ### Cloning the Repository
-To get started with "Path of Misfortune," clone the repository to your local machine and navigate into the project directory:
+First, clone the repository to your local machine and navigate into the project directory:
 ```zsh
 git clone https://github.com/MetaBundleAutomation/LipExample.git
-cd path-of-misfortune
+cd LipExample
 ```
 
 ### Setting up the Environment
-Install the project dependencies. This will create a virtual environment and install everything needed:
-
+Next, set up your Python environment and install the project dependencies in a virtual environment. 
 ```bash
 # Intialise a virtual env.
 $ python -m venv .venv
@@ -45,24 +45,47 @@ $ .venv\Scripts\activate
 $ pip install -r requirements.txt
 ```
 
-#### Updating module dependencies
-```bash
-# Freeze a new set of requirements if you've added a library
-$ pip freeze > requirements.txt
-```
-
 ### Running the Application
-To launch the "Path of Misfortune" app, use Task to start the Streamlit server. This custom command simplifies the process and ensures consistency across environments:
-
+To launch the Streamlit app locally, you have two options. You can either use a Task command (if Task runner is configured) or directly through Poetry within your virtual environment. Use one of the following commands based on your setup:
 ```zsh
+# Using Task
 task streamlit:start 
-# Alternatively: streamlit run app/main.py
+```
+```zsh
+# Alternatively, use the venv directly
+streamlit run app/app.py
 ```
 
 ### Running Code Quality Checks
-Run the following command to perform all code quality checks:
-
+To ensure your code adheres to quality standards, run the following command. This will execute a series of code quality checks including linting and static type checking:
 ```zsh
+# Using Task to run all checks
 task code_quality:all
-# Alternatively: ruff --check
+```
+```zsh
+# Alternatively, running individual checks using the venv
+ruff --check
+isort . 
+black .
+mypy .
+```
+
+#### Updating module dependencies
+Freeze a new set of requirements if you've added a library
+```bash
+$ pip freeze > requirements.txt
+```
+
+### Building and Running with Docker
+For containerization and easy deployment, you can build and run your Streamlit application using Docker. The following command builds the Docker image and runs it as a container:
+```zsh
+# This will make your Streamlit app accessible at http://localhost:8000 on your machine.
+docker build -f Dockerfile -t streamlit . && docker run -d -p 8000:8080 --name streamlit streamlit
+```
+
+### Using Docker Compose
+Alternatively, you can use Docker Compose to build and run your application. This is especially useful for more complex applications that might depend on other services like databases:
+```zsh
+# This will make your Streamlit app accessible at http://localhost:8000 on your machine.
+docker-compose up -d --build
 ```
