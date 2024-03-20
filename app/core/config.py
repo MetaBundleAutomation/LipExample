@@ -1,4 +1,4 @@
-from pydantic import BaseModel, SecretStr
+from pydantic import BaseModel
 from pydantic_settings import BaseSettings
 
 
@@ -13,7 +13,7 @@ class Images(BaseModel):
 
 class Settings(BaseSettings):
     service_name: str = "Streamlit"
-    token: SecretStr
+    # token: SecretStr
     images: Images = Images()
     page_content: PageContent = PageContent()
 
@@ -22,4 +22,4 @@ class Settings(BaseSettings):
         env_file_encoding = "utf-8"
 
 
-settings = Settings()  # type: ignore[call-arg]
+settings = Settings()

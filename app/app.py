@@ -1,7 +1,5 @@
-from models import Image
-
-from core.config import settings
 import streamlit as st
+from core.config import settings
 
 st.set_page_config(
     page_title=settings.page_content.title,

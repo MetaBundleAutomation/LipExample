@@ -1,8 +1,7 @@
----
 version: "3"
 
 tasks:
   start:
     cmds:
-      - poetry run streamlit run app/main.py
+    - streamlit run app/app.py
     silent: false
