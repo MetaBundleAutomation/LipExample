@@ -1,4 +1,3 @@
-from .ascendancy import Ascendancy
-from .gems import SkillGem
+from .image import Image
 
-__all__ = ["Ascendancy", "SkillGem"]
+__all__ = ["Image"]
